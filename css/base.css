@@ -8,17 +8,14 @@ html {
 }
 
 /* Basic Styles */
-
 body {
-	font-family: 'Yantramanav', sans-serif;
+	font-family:'Yantramanav', sans-serif;
 	font-size: 1em; 
 	font-weight: 400;
 	line-height: 1.188em;
-	text-align:left;
 }
 /* Typography 1.414 perfect fourth*/
 /* typeskill.com */
-
 p {
 	margin: 0px;
 	
@@ -28,37 +25,30 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2;
 	color: #2F2F2F;
 }
-
 h1 {
 	font-family: 'Merriweather',serif;
 	font-size: 2.813em;
 	font-weight: 700;
 	margin-bottom: 0px;
 }
-
 h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 2.827em;
 	font-weight: 700;
-
 }
-
 h3 {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 1.375em;
 	font-weight: 400;
 	margin:0px;
-
 	
 }
-
 h4 {
 	font-family: 'Merriweather', serif;
 	font-size: 1.938em;
 	font-weight: 400;
 	
 }
-
 h5 {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 1em;
@@ -66,44 +56,36 @@ h5 {
 	
 	
 }
-
 h6 {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 0.5em;
 	font-weight: 400;
 }
-
-
-
 .small-type {
 	font-size: 0.75em;
 }
 strong{
 	font-weight: bold;
 }
-/* Links */
+/*end of type*/
 
+/* Links */
 a {
 	color: #000000;
 	text-decoration: underline;
 }
-
 a:link {
 	color: #000000;
 	text-decoration: underline;
 }
-
-
 a:visited {
 	color: #000000;
 	text-decoration: underline;
 }
-
 a:hover {
 	color: #56627a;
 	text-decoration: none;
 }
-
 a:active {
 	color: #56627a;
 	text-decoration: none;
@@ -116,14 +98,12 @@ a:active {
 	color:#000000;
 	text-decoration: none;
 }
-
 .button-holder {
 	width: 100%;
 	padding: 100px 0;
 	background: #94ddff;
 	text-align: center;
 }
-
 .btn {
 	display:inline-block;
 	padding: 0 25px;
@@ -136,18 +116,14 @@ a:active {
 	color: #3359B0;
 	line-height: 47px;	
 }
-
 .btn:hover {
 	background: #7199b3;
 	color: #3359B0;
 }
-
 .lt-otl-btn:link {
 	color: #000000;
 	text-decoration: none;
 }
-
-
 .lt-otl-btn {
 	display:inline-block;
 	padding: 0 25px;
@@ -160,18 +136,14 @@ a:active {
 	color: #ffffff;
 	line-height: 47px;
 }
-	
-	.lt-otl-btn:hover {
+.lt-otl-btn:hover {
 border: 1px solid #000000;
 color: #000000;
 }
-
-
 .drk-otl-btn:link {
 		color: #000000;
 	text-decoration: none;
 }
-
 .drk-otl-btn {
 	display:inline-block;
 	padding: 0 25px;
@@ -184,12 +156,10 @@ color: #000000;
 	color: #000000;
 	line-height: 47px;
 }
-
 .drk-otl-btn:hover {
 	border: 1px solid #FFFFFF;
 	color: #FFFFFF;
 }
-
 .send-btn:link {
 	color:#3359B0;
 	text-decoration: none;
@@ -211,11 +181,9 @@ color: #000000;
 
 	
 }
-
 .send-btn:hover {
 background: #7199b3;
 	color: #FFFFFF;}
-
 .lt-otl-send-btn:link {
 	color:#000000;
 	text-decoration: none;
@@ -235,13 +203,11 @@ background: #7199b3;
 	cursor: pointer
 
 }
-
 .lt-otl-send-btn:hover {
 	border: 1px solid #000000;
 	color: #000000;
 
 }
-
 .drk-otl-send-btn {
 	display:inline-block;
 	padding: 0 40px;
@@ -257,7 +223,6 @@ background: #7199b3;
 	cursor: pointer
 
 }
-
 .drk-otl-send-btn:hover {
 	border: 1px solid #FFFFFF;
 	color: #FFFFFF;
@@ -265,60 +230,47 @@ background: #7199b3;
 }
 
 /*Simple Grid*/
-
 .columns_2 {
 	width: 460px; 
 	float: left;
 	margin-right: 20px;
 	
 }
-
 .columns_2:last-of-type {
 	margin: 0;
 	
 }
-
 .columns_3 {
 	width: 300px; 
 	float: left;
 	margin-right: 20px;
-
 	
 }
-
 .columns_3:last-of-type {
 	margin: 0;
 }
-
 .columns_4 {
 	width: 220px; 
 	float: left;
 	margin-right: 20px;
-	
 }
-
 .columns_4:last-of-type {
 	margin: 0;
 }
-
 .columns_6 {
 	width: 140px; 
 	float: left;
 	margin-right: 20px;
-	
 }
-
 .columns_6:last-of-type {
 	margin: 0;
 }
-
 .columns_12 {
 	width: 60px; 
 	float: left;
 	margin-right: 20px;
 	
 }
-
 .columns_12:last-of-type {
 	margin: 0;
 }
@@ -327,8 +279,8 @@ background: #7199b3;
 	float: left;
 	margin-bottom:20px;
 }
-/* Misc HTML */
 
+/* Misc HTML */
 .alight-right {
 	float: right;
 	margin: 0 0 0 10px;
@@ -352,6 +304,5 @@ background: #7199b3;
 	margin-left: auto;
 	display: block;
 	overflow: hidden;
-	clear: both; 
-	
+	clear: both; 	
 }

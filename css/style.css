@@ -23,7 +23,6 @@ header {
 	text-indent: -999em;
 }
 /* Horizintal Navigation */
-
 nav {
 	float: left;
 	
@@ -71,7 +70,8 @@ a:active {
 	color: #FFFFFF;
 	text-shadow: 2px 2px 4px #000000;
 	position: inherit;
-	left: 530px;
+	float: left;
+	width: 100%;
 }
 .hero-image {
 	display:inherit;
@@ -117,7 +117,8 @@ a:active {
 	top: 40px;
 	left: 330px;
 	text-transform: none;
-	color: #FFFFFF
+	color: #FFFFFF;
+	width: 100%;
 }
 .hero-image img {
 	position: absolute;
@@ -130,10 +131,20 @@ a:active {
 }
 
 /*explore*/
-
-.explore-image {
-	
-display:inherit;
+#explore {
+	width: 100%;
+	padding: 100px 0;
+	float: left;
+	text-align: left;
+	background: url(./images/rectangle-11.jpg);
+	background-size:cover;
+	background-position: center;
+	}
+.explore-header{
+	text-align: center;
+}
+.explore img {
+	display: block;
 	width: 100%;
 	height: 547px;
 	position: relative;
@@ -143,35 +154,30 @@ display:inherit;
 
 }
 
-/*tours*/
+/*end explore*/
 
-.tour{
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-.tours-image {
-display:inherit;
+/*landmarks*/
+#landmarks{
 	width: 100%;
-	height: 645px;
-	position: relative;
-	background: url(../images/rectangle-12.jpg) no-repeat;
-	background-size:cover;
-	background-position: center;
-}
-
-#projects {
+	padding: 100px 0;
+	float: left;
 	text-align: left;
-	text-decoration: none;
-	
-}
+	}
 
-.container {
-    position: relative;
+.landmark-subhead {
+	margin-bottom: 0;
+	margin-top: 0;
 }
+/*landmarks end*/
 
-.row {
-	align-content: center;
-}
+
+/*tours*/
+#tours{
+	width: 100%;
+	padding: 100px 0;
+	float: left;
+	text-align: center;
+	}
 
 .text-block {
     position: absolute;
@@ -189,7 +195,6 @@ display:inherit;
 	position: absolute;
 	color: #FFFFFF;
 }
-
 .header-txt {
 	color: #FFFFFF;
 	position: absolute;
@@ -198,7 +203,6 @@ display:inherit;
 	width: 100%;
 text-shadow: 2px 2px 4px #000000;	
 }
-
 .sub-head{
 	color: #FFFFFF;
 		top: 370px;
@@ -207,39 +211,32 @@ text-shadow: 2px 2px 4px #000000;
 	position: absolute;
 	text-shadow: 4px,2px,4px,#000000;
 }
-/* Host */
-
 .section-heads {
 	text-align: center;
 	margin-bottom: 20px
 }
-#host {
-	width: 100%;
-	padding: 100px 0;
-	background: #ffffff;
-	float: left;
-}
-/*landmarks*/
+/*end tours*/
 
-.landmark-subhead {
-	margin-bottom: 0;
-	margin-top: 0;
-}
 
 /*things to do*/
-
+#to-do {
+	width: 100%;
+	padding:100px 0;
+	float: left;
+	text-align: center;
+	}
 .type-overlay-2{
 	position:absolute;
 	background: rgba(51, 89, 176, .6);
 	height: 100px;
 	margin-top: 166px;
+	margin-bottom: 10px;
 	text-align:left;
 	color: #FFFFFF;
 	padding: 15px;
 	width: 462px;
 	
 }
-
 .type-overlay-3{
 	position:absolute;
 	background: rgba(255, 199, 0, .5);
@@ -250,7 +247,6 @@ text-shadow: 2px 2px 4px #000000;
 	padding: 8px;
 	width: 300px;
 }
-
 .type-overlay-4{
 	position:absolute;
 	background: rgba(51, 89, 176, .6);
@@ -262,17 +258,10 @@ text-shadow: 2px 2px 4px #000000;
 	width: 460px;
 	
 }
-
-
-
 .to-do-txt{
 	margin-bottom: 0;
 	margin-top: 0;
-	color: #FFFFFF;
-}
-
-
-
+	color: #FFFFFF;}
 .p-eat{
 display: inline-block;
 background-image:url(../images/places_eat.jpg);
@@ -282,7 +271,6 @@ background-image:url(../images/places_eat.jpg);
 	
 			
 }
-
 .snorkeling{
 	
 	background-image: url(../images/snorkeling.jpg);
@@ -292,7 +280,6 @@ background-image:url(../images/places_eat.jpg);
 	
 
 }
-
 .museum{
 	display:inline-block;
 	background-image: url(../images/museum.jpg);
@@ -301,45 +288,47 @@ background-image:url(../images/places_eat.jpg);
 	margin: 0px;
 	background-repeat: no-repeat;
 }
-
 .camping{
 	background-image: url(../images/camping.jpg);
 	width: 470px;
 	height: 267px;
+	margin-bottom: 0px;
 	background-repeat: no-repeat;
 }
-
 .wedding{
 	background-image: url(../images/wedding.jpg);
 	width: 300px;
 	height: 186px;
 	background-repeat: no-repeat;
 }
-
-
 .adventures{
 	background-image: url(../images/adventures.jpg);
 	width: 300px;
 	height: 186px;
 	background-repeat: no-repeat;
 }
-
 .fishing{
 	background-image: url(../images/fishing.jpg);
 	width: 300px;
 	height: 186px;
 	background-repeat: no-repeat;
 }
+/*end things-to-do*/
 
 /*Accommodations*/
-
+#accommodations{
+	width: 100%;
+	padding: 100px 0;
+	float: left;
+	text-align: center;
+	}
 .stay{
 	text-align: left;
 	color: #5576C2;
 }
+/*end Accommodations*/
 
 /* Buttons */
-
 .drk-btn {
 	display: inline-block;
 	margin-bottom: 20px;
@@ -357,8 +346,6 @@ background-image:url(../images/places_eat.jpg);
 	
 	
 }
-
-
 .drk-btn-r {
 	display: inline-block;
 	margin-bottom: 20px;
@@ -378,19 +365,18 @@ background-image:url(../images/places_eat.jpg);
 	text-align: left;
 	margin-top: 20px;
 }
-
 .right-btn {
 	text-align: right;
 	margin-top: 20px;
 }
-/* Support */
 
+/* Support */
 #support {
 	width: 100%;
 	padding: 200px 0;
 	float: left;
 	text-align: center;
-	background: url(../images/world_dots.svg) no-repeat;
+	background: #FFFFFF;
 	background-position: center;
 	background-size: 940px;
 	background-color: #5A5A5A;
@@ -410,37 +396,8 @@ background-image:url(../images/places_eat.jpg);
 	font-size: 1.5em;
 	padding: 10px 25px 0;
 }
-/* Projects */
 
-#projects {
-	width: 100%;
-	padding: 100px 0;
-	float: left;
-	background: #FFFfF;
-}
-#projects h2, p {
-	text-align: left;
-}
-.project-text {
-	margin-top: -7px;
-	padding: 20px 20px 10px 20px;
-	background: #ffffff;
-}
-.project-caption {
-	text-align: left;
-	color: #5e5e5e;
-}
-.project-link {
-	font-size: .7em;
-	letter-spacing: .09em;
-	text-transform: uppercase;
-	font-weight: 900;
-	color: #fc5f21;
-}
-#tours{
-	text-align: center;
-	
-}
+
 
 .tours-headtype {
 	text-align: left;
@@ -452,22 +409,9 @@ background-image:url(../images/places_eat.jpg);
 	position: inherit;
 	text-transform: none;
 }
+/*end projects*/
 
-/* Testimonials*/
-
-#testomonials {
-	width: 100%;
-	padding: 100px 0;
-	float: left;
-	background: #ffffff;
-	text-align: center;
-}
-#testomonials img {
-	border-radius: 50%;
-	margin-bottom: 10px;
-}
 /* Contact Us */
-
 #contact-map {
 	width: 100%;
 	padding: 100px 0;
@@ -516,66 +460,47 @@ background-image:url(../images/places_eat.jpg);
 .directions {
 	text-align: left;
 }
-
 .get-help{
 	background-color: #FFC700;
 	width: 100%;
 	height: 177px;
 	margin-top: 80px;
-	margin-bottom: 0px;
+
 	padding-top: 45px;
 	padding-bottom: 50px;
 }
-
 .trip-help{
-	padding-right: 360px;
-	padding-left: 20px;
-	display: inherit;
-		
-}
+ padding: 10px 250px 0px;
+	position:absolute;
 
+}
 .trip-help-1{
-	padding-right: 360px;
-	padding-left: 571px;
-	padding-top: 5px;
-	display: inherit;
+	padding: 73px 250px 10px;
+	position:absolute;
 		
 }
-
 .help-icon{
 	height: 63px;
 	width: 63px;
-	margin-left: 440px;
-	display: inherit;
+	margin-left: 160px;
+	display:inherit;
+	position: absolute;
+	
 }
-/* Audio  */
 
-#audio {
-	width: 100%;
-	padding: 100px 0;
-	background: #4C4C4C;
-}
-audio {
-	width: 100%;
-}
-/* video */
 
-#video {
-	width: 100%;
-	padding: 100px 0;
-	background: #000000;
-}
 /* ------- [ Footer ] ------- */
 
 footer {
 	width: 100%;
-	background-color: #B1D3EF;
+	background-color: #5576C2;
 	float: left;
 	text-align: left;
-	padding: 85px 0 0 0;
-	margin-top: 0px;
+	
+	padding: 100px;
 	line-height: 1.8em;
-	height: 317px;
+	
+	
 
 }
 footer a:link {
@@ -599,7 +524,7 @@ footer a:active {
 }
 .footer-nav li {
 	list-style-type: none;
-	color: #000000;
+	color: #FFFFFF;
 	margin: 0px;
 	padding: 0px;
 	cursor: pointer;
@@ -626,6 +551,8 @@ footer a:active {
 	display: inline-block;
 	color: #ffffff;
 	padding-right: 10px;
+	margin-top: 10px;
+	
 }
 .social-icons a:link {
 	text-decoration: none;
@@ -648,15 +575,30 @@ footer a:active {
 	color: #ffffff;
 	font-size: 1.9em;
 }
+.unesco-logo {
+	background: url(../images/unesco.svg)no-repeat;
+	height: 70px;
+	width: 90px;
+	float: left;
+	margin-top: 20px;
+}
+.line{
+	float: left;
+	position: inherit;
+	background-color: #FFFFFF;
+	height:100px;
+	width: 1px;
+	margin: 10px;
+	
+}
 .copyright {
 	display: block;
 	float: left;
-	background-color: #5576C2;
+	background-color: #3845A8;
 	text-align: center;
 	width: 100%;
-	color: #ffffff;
-	margin-bottom: 0px;
-	padding-top:18px;
+	color: #FFFFFF;
+	padding-top: 15px;
 	height: 55px;
 }
 .copyright a:link {
@@ -677,3 +619,4 @@ footer a:active {
 .copyright a:active {
 	color: #ffffff;
 }
+/*end footer*/
