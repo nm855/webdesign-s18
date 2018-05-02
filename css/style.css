@@ -1,11 +1,11 @@
 /* Header */
 
 header {
-	width: 80%;
+	width: 76%;
 	height: 48px;
 	padding: 10px 0;
 	background-color: #FFC700;
-	position:absolute;
+	position:;
 	top: 70px;
 	right: 0;
 	bottom: 20px;
@@ -25,7 +25,7 @@ header {
 /* Horizintal Navigation */
 nav {
 	float: left;
-	
+	width: 100%;
 }
 nav ul {
 	list-style-type: none;
@@ -83,7 +83,6 @@ a:active {
 	background-position: center;
 	
 }
-
 .search{
 	color: #FFFFFF;
 	margin-left: 60px;
@@ -99,7 +98,6 @@ a:active {
 	text-transform: none;
 	padding: 8px;
 }
-
 .orange {
 	border: 1px #FFC700;
 	background-color: #FFC700;
@@ -129,7 +127,6 @@ a:active {
 	height: 55.45px;
 	
 }
-
 /*explore*/
 #explore {
 	width: 100%;
@@ -153,9 +150,7 @@ a:active {
 	background-position: center;
 
 }
-
 /*end explore*/
-
 /*landmarks*/
 #landmarks{
 	width: 100%;
@@ -163,14 +158,11 @@ a:active {
 	float: left;
 	text-align: left;
 	}
-
 .landmark-subhead {
 	margin-bottom: 0;
 	margin-top: 0;
 }
 /*landmarks end*/
-
-
 /*tours*/
 #tours{
 	width: 100%;
@@ -178,7 +170,6 @@ a:active {
 	float: left;
 	text-align: center;
 	}
-
 .text-block {
     position: absolute;
     background-color: black;
@@ -216,8 +207,6 @@ text-shadow: 2px 2px 4px #000000;
 	margin-bottom: 20px
 }
 /*end tours*/
-
-
 /*things to do*/
 #to-do {
 	width: 100%;
@@ -314,7 +303,6 @@ background-image:url(../images/places_eat.jpg);
 	background-repeat: no-repeat;
 }
 /*end things-to-do*/
-
 /*Accommodations*/
 #accommodations{
 	width: 100%;
@@ -327,7 +315,6 @@ background-image:url(../images/places_eat.jpg);
 	color: #5576C2;
 }
 /*end Accommodations*/
-
 /* Buttons */
 .drk-btn {
 	display: inline-block;
@@ -369,7 +356,6 @@ background-image:url(../images/places_eat.jpg);
 	text-align: right;
 	margin-top: 20px;
 }
-
 /* Support */
 #support {
 	width: 100%;
@@ -396,9 +382,6 @@ background-image:url(../images/places_eat.jpg);
 	font-size: 1.5em;
 	padding: 10px 25px 0;
 }
-
-
-
 .tours-headtype {
 	text-align: left;
 	margin-top: 0;
@@ -410,7 +393,6 @@ background-image:url(../images/places_eat.jpg);
 	text-transform: none;
 }
 /*end projects*/
-
 /* Contact Us */
 #contact-map {
 	width: 100%;
@@ -487,10 +469,7 @@ background-image:url(../images/places_eat.jpg);
 	position: absolute;
 	
 }
-
-
 /* ------- [ Footer ] ------- */
-
 footer {
 	width: 100%;
 	background-color: #5576C2;
