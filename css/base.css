@@ -96,6 +96,7 @@ a:active {
 
 .btn:link {
 	text-decoration: none;
+	color: #FFFFFF;
 }
 .button-holder {
 	width: 100%;
