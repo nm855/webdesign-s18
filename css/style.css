@@ -91,6 +91,7 @@ a:active {
 	background-color: #FFFFFF;
 	width: 220px;
 	height: 32.86px;
+	margin-bottom: 7px;
 	position: inherit;
 	z-index: 2;
 	text-align: center;
@@ -100,13 +101,14 @@ a:active {
 .orange {
 	border: 1px #FFC700;
 	background-color: #FFC700;
-	height: 113.83px;
+	height: 120px;
 	width: 100%;
 	position: absolute;
-	padding: 32px ;
+	padding: 42px ;
 	top: 560px;
 	bottom: 73px;
 	z-index: 3;
+	box-shadow: 8px 9px 30px 1px ; 
 }
 #search-type {
 	text-align: left;

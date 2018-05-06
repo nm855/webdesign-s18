@@ -95,7 +95,6 @@ a:active {
 /* Buttons */
 
 .btn:link {
-	color:#000000;
 	text-decoration: none;
 }
 .button-holder {
@@ -106,15 +105,13 @@ a:active {
 }
 .btn {
 	display:inline-block;
-	padding: 0 25px;
+	padding: 0 25px; 
 	background: #3359B0;
-	font-weight: 300;
-	font-size: 1.2em;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	text-decoration: none;
-	color: #3359B0;
-	line-height: 47px;	
+	text-decoration: none; 
+	border-radius: 20px;
+	margin-left: 40px;
+	position: inherit;
+	line-height: 40px;	
 }
 .btn:hover {
 	background: #7199b3;
@@ -129,7 +126,7 @@ a:active {
 	padding: 0 25px;
 	font-weight: 300;
 	font-size: 1.2em;
-	border-radius: 5px;
+	border-radius: 9px;
 	border: 1px solid #FFFFFF;
 	margin-bottom: 20px;
 	text-decoration: none;
