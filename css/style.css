@@ -12,8 +12,13 @@ header {
 	z-index: 1;
 }
 .branding {
-	width: 127.87px;
-	height: 55.45px;
+	width: 199.78px;
+	height: 86.63px;
+	position: absolute;
+	left: 20px;
+	top: 35px;
+	display: block;
+	background: url(../images/logotype.svg) no-repeat;
 	float: left;
 }
 .Logotype {
