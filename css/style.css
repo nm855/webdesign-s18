@@ -108,7 +108,12 @@ a:active {
 	top: 560px;
 	bottom: 73px;
 	z-index: 3;
-	box-shadow: 8px 9px 30px 1px ; 
+	box-shadow: 2px 5px 30px 1px ; 
+}
+.arrow {
+	background: url(../images/arrow-down.svg);
+	height: 9px;
+	width: 18px;
 }
 #search-type {
 	text-align: left;
@@ -186,6 +191,8 @@ text-shadow: 2px 2px 4px #000000;
 	padding: 100px 0;
 	float: left;
 	text-align: center;
+	background-image: url(../images/rectangle-12.jpg);
+	
 	}
 .text-block {
     position: absolute;
@@ -304,6 +311,8 @@ background-image:url(../images/places_eat.jpg);
 .stay{
 	text-align: left;
 	color: #5576C2;
+	padding: 0 0 3px;
+	
 }
 /*end Accommodations*/
 /* Buttons */
@@ -387,7 +396,7 @@ background-image:url(../images/places_eat.jpg);
 /* Contact Us */
 #contact-map {
 	width: 100%;
-	padding: 100px 0;
+	padding: 90px 0 100px;
 	float: left;
 	padding-bottom: 0px;
 	
@@ -588,5 +597,8 @@ footer a:active {
 }
 .copyright a:active {
 	color: #ffffff;
+}
+.copyright-b{
+	text-align: center;
 }
 /*end footer*/
