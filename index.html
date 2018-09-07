@@ -10,13 +10,20 @@
 	<!--Web Typography-->
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Yantramanav" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
-	</script><!--css-->
+	</script>
+	
+	<!--css-->
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/base.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-</head>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/headroom.min.js"></script>
+<script src="js/scrollIt.js" type="text/javascript"></script>
+	</head>
 <body>
-	<header>
+	<header class="headroom headroom--pinned headroom headroom--unpinned">
 		
 		<div class="container">
 
@@ -24,19 +31,19 @@
 			<nav>
 				<ul class="navigation">
 					<li>
-						<a href="#">Home</a>
+						<a data-scroll-nav="0">Home</a>
 					</li>
 					<li>
-						<a href="#">ACCOMMODATIONS</a>
+						<a data-scroll-nav="1">ACCOMMODATIONS</a>
 					</li>
 					<li>
-						<a href="#">THINGS TO DO</a>
+						<a data-scroll-nav="2">THINGS TO DO</a>
 					</li>
 					<li>
-						<a href="#">GALLERY</a>
+						<a data-scroll-nav="3">GALLERY</a>
 					</li>
 					<li>
-						<a href="#">ATTRACTIONS</a>
+						<a data-scroll-nav="4">ATTRACTIONS</a>
 					</li>
 					<li>
 						<a href="#">TOURS</a>
