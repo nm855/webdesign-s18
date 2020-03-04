@@ -49,7 +49,7 @@ nav li {
 	cursor: pointer;
 }
 a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 }
 a:link {
@@ -113,7 +113,6 @@ a:active {
 	top: 560px;
 	bottom: 73px;
 	z-index: 3;
-	box-shadow: 2px 5px 30px 1px ; 
 }
 .arrow {
 	background: url(../images/arrow-down.svg);
@@ -160,7 +159,7 @@ text-shadow: 2px 2px 4px #000000;
 	padding: 100px 0;
 	float: left;
 	text-align: left;
-	background: url(../images/rectangle-11.jpg);
+	background-color: #ffffff;
 	background-size:cover;
 	background-position: center;
 	}
@@ -186,8 +185,8 @@ text-shadow: 2px 2px 4px #000000;
 	text-align: left;
 	}
 .landmark-subhead {
-	margin-bottom: 0;
-	margin-top: 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 /*landmarks end*/
 /*tours*/
@@ -196,7 +195,6 @@ text-shadow: 2px 2px 4px #000000;
 	padding: 100px 0;
 	float: left;
 	text-align: center;
-	background-image: url(../images/rectangle-12.jpg);
 	
 	}
 .text-block {
@@ -222,12 +220,12 @@ text-shadow: 2px 2px 4px #000000;
 	position:absolute;
 	background: rgba(51, 89, 176, .6);
 	height: 100px;
-	margin-top: 166px;
+	margin-top: 145px;
 	margin-bottom: 10px;
 	text-align:left;
 	color: #FFFFFF;
-	padding: 15px;
-	width: 462px;
+	padding: 20px 20px 100px 20px;
+	width: 460px;
 	
 }
 .type-overlay-3{
@@ -237,20 +235,22 @@ text-shadow: 2px 2px 4px #000000;
 	margin-top: 130px;
 	text-align:left;
 	color: #FFFFFF;
-	padding: 8px;
+	padding: 20px 20px 34px 20px;
 	width: 300px;
 }
 .type-overlay-4{
 	position:absolute;
 	background: rgba(51, 89, 176, .6);
 	height: 100px;
-	margin-top: 143px;
+	margin-top: 110px;
 	text-align:left;
 	color: #FFFFFF;
-	padding: 15px;
+	padding: 20px 20px 110px 20px;
 	width: 460px;
 	
 }
+
+
 .to-do-txt{
 	margin-bottom: 0;
 	margin-top: 0;
@@ -317,6 +317,7 @@ background-image:url(../images/places_eat.jpg);
 	text-align: left;
 	color: #5576C2;
 	padding: 0 0 3px;
+	margin: 10px 0px 10px 0;
 	
 }
 /*end Accommodations*/
@@ -389,8 +390,8 @@ background-image:url(../images/places_eat.jpg);
 }
 .tours-headtype {
 	text-align: left;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top:10px;
+	margin-bottom: 10px;
 }
 .tours-copy{
 	text-align: left;
